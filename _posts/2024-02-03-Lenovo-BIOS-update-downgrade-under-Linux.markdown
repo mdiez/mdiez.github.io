@@ -9,7 +9,7 @@ categories: it
 I am not assuming any responsibility or liability. You are following this tutorial at your own risk. BIOS updates are inherently risky and might brick your device!
 
 # Prerequisites
-I assume you have
+This post assumes you have already
 1. downloaded the relevant BIOS update as described in [this blogpost](/it/2024/02/03/Downgrade-Lenovo-BIOS-fix-sleep-problems.html)
 2. manually extracted the BIOS update package as described in [this blogpost](/it/2024/02/03/Manually-unpack-Lenovo-update-packages.html).
 
