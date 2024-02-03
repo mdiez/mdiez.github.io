@@ -96,3 +96,4 @@ Now, in order to extract the update file, follow the steps:
 `innoextract <exe update file>`, e.g., `innoextract R22UJ60W.exe`.
 3. The utility will extract the contents of the update package to a subdirectory in the current directory. In my case, the directory was called `code$GetExtractPath$`.
 
+If you intend to update or downgrade your Lenovo machine's BIOS under Linux, please read the [follow-up blogpost](/it/2024/02/03/Lenovo-BIOS-update-downgrade-under-Linux.html).
