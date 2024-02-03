@@ -2,7 +2,7 @@
 layout: post
 title:  "How to downgrade a BIOS on Lenovo laptops and fix sleep problems"
 date:   2024-02-03 19:28:21 +0200
-categories: devops it-infrastructure
+categories: it
 ---
 
 # Lenovo BIOSes are going downhill
