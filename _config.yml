@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: xdiez/random
+title: /xdiez/random
 email: random@xdiez.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog of a full-time SaaS/AI entrepreneur; part-time nerd.
+  Blog of a full-time SaaS/AI entrepreneur; part-time wannabe nerd.
 domain: random.xdiez.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://random.xdiez.com # the base hostname & protocol for your site, e.g. http://example.com
