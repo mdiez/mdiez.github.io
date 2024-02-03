@@ -8,7 +8,7 @@ categories: it
 # Lenovo BIOSes are going downhill
 While I love some Lenovo hardware (especially the T4**s/T14s series), the quality of the BIOSes that Lenovo is putting out these days is getting worse and worse. Currently, my daily driver is a Lenovo T14s Gen 3, and I found that the recent BIOS versions (e.g., 1.35, 1.31) caused serious problems because my the machine would no longer wake up from sleep mode. While with previous BIOS versions this only occurred occassionally, with 1.35/1.31 it became a routine symptom and made life very difficult.
 
-Thus I decided to downgrade to a previos BIOS version which behaved in a more stable manner. Since it is not straightforward to downgrade these machines, here is a full tutorial on how to go about this.
+Thus I decided to downgrade to a prior BIOS version which behaved in a more stable manner. Since it is not straightforward to find the necessary files on Lenovo's servers, here is a full tutorial on how to go about this.
 
 # How to download previous BIOS versions
 The support pages on the Lenovo website routinely only link to the most recent BIOS version. Thus, a little copy/paste gymnastics are required to download older versions:
