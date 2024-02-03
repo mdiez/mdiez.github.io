@@ -8,7 +8,7 @@ categories: it
 # Deepdive into the Lenovo update packages format
 Lenovo is supplying the drivers in exe files which can easily be unpacked in Windows (by double-clicking), but if you're working under another operating system, you'll have a harder time. Let's figure out what's contained in these files and how they work.
 ## 7zip
-A quick analysis with 7z shows that Lenovo is using the `InnoSetup` format to package their updates:
+A quick analysis with 7z shows gives the following output:
 
 `$ 7z l R22UJ60W.exe`
 ```
@@ -50,12 +50,17 @@ Comment = FileVersion: 4.0.100.1124
 FileVersion: 1.30.1.25           
 ProductVersion: 1.30.1.25
 ProductVersion: 1.30.1.25                                         
-Comments: This installation was built with *Inno Setup*.
+Comments: This installation was built with Inno Setup.
 CompanyName: Lenovo Group Limited                                        
 FileDescription: For Lenovo Updates Catalog                                  
 LegalCopyright: Copyright © Lenovo 2021.                                                                            
 ProductName: ThinkPad BIOS Update Utility -Package 1.5.11.3
 ```
+
+The following line is of particular interest:
+```Comments: This installation was built with Inno Setup.```
+
+It seems that Lenovo is packaging its updates with Inno Setup.
 
 ## binwalk
 We can also use `binwalk` to learn more about the structure of the file:
