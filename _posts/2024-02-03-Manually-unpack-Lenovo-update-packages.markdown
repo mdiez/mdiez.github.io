@@ -2,7 +2,7 @@
 layout: post
 title:  "How to manually unpack Lenovo update packages"
 date:   2024-02-03 22:29:00 +0200
-categories: devops it-infrastructure
+categories: it
 ---
 
 # Deepdive into the Lenovo update packages format
