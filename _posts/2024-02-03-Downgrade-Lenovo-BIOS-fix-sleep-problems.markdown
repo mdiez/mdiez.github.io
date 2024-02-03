@@ -6,7 +6,7 @@ categories: devops it-infrastructure
 ---
 
 # Lenovo BIOSes are going downhill
-While I love some Lenovo hardware (especially the T4**s/T14s series), the quality of the BIOSes that Lenovo is putting out these days is getting worse and worse. Currently, my daily driver is a Lenovo T14s Gen 3, and I found that the recenPackage  (ID)t BIOS versions (e.g., 1.35, 1.31) caused problems because my the machine would no longer wake up from sleep mode. While with previous BIOS versions this only occurred occassionally, with 1.35/1.31 it became a routine symptom and made life very difficult.
+While I love some Lenovo hardware (especially the T4**s/T14s series), the quality of the BIOSes that Lenovo is putting out these days is getting worse and worse. Currently, my daily driver is a Lenovo T14s Gen 3, and I found that the recent BIOS versions (e.g., 1.35, 1.31) caused serious problems because my the machine would no longer wake up from sleep mode. While with previous BIOS versions this only occurred occassionally, with 1.35/1.31 it became a routine symptom and made life very difficult.
 
 Thus I decided to downgrade to a previos BIOS version which behaved in a more stable manner. Since it is not straightforward to downgrade these machines, here is a full tutorial on how to go about this.
 
@@ -19,10 +19,12 @@ The support pages on the Lenovo website routinely only link to the most recent B
 ![image](https://github.com/mdiez/mdiez.github.io/assets/7477044/72f7da5b-26fe-4559-bf8a-34d6de20c176)
 4. Download the `README` textfile and open it in a separate tab.
 5. Make a right click on the `Download` button for the `BIOS Update Utility`, and select `Copy Link` from the context menu to save the link to the clipboard:
-![image](https://github.com/mdiez/mdiez.github.io/assets/7477044/816af255-36b9-49bd-8955-83b3b673f231)
+![image](https://github.com/mdiez/mdiez.github.io/assets/7477044/61ca2fec-9532-434e-97cf-969762e2b06f)
 (in my case, the link is `https://download.lenovo.com/pccbbs/mobiles/r22uj65w.exe`)
 6. In the README text file, scroll down to the section `VERSION HISTORY`. For my BIOS, the section looks like this, and it lists all previous relases, along with their `Package  (ID)`:
 ![image](https://github.com/mdiez/mdiez.github.io/assets/7477044/5abe7ac0-a8dc-4fc1-9b9b-0cbeafcec04f)
-7. Now, in order to download a previous release, paste the link you saved under step 4.2 and swap out the filename before the extension with the respective `Package` identifier. For example, if I want to download UEFI version 1.30, the associated `Package ID` would be `R22UJ60W` and thus, the download link is:
+7. Now, in order to download a previous release, paste the link you saved under step 4.2 and replace the filename before the extension with the respective `Package` identifier. For example, if I want to download UEFI version 1.30, the associated `Package ID` would be `R22UJ60W` and thus, the download link is:
 `https://download.lenovo.com/pccbbs/mobiles/R22UJ60W.exe`.
-8. At this point, I suggest you download all past BIOSes when you're at it and just save them to your hard drive. This way you still have them, in case Lenovo removes them from their servers in the future. Also, if you have the former BIOSes readily available, you can downgrade in a few minutes and thus accelerate your troublshooting efforts.
+8. At this point, *I suggest you download all past BIOSes* while you're at it and just save them to your hard drive. This way you still have them even if Lenovo should remove them from their servers in the future. Also, if you have the former BIOSes readily available, you can downgrade in a few minutes and thus accelerate your troublshooting efforts.
+
+If you are running Linux, you'll need to manually unpack the downloaded exe files. Find out how you can do this in the [follow up blog post about manually extracting Lenovo update packages].
