@@ -21,7 +21,7 @@
 title: /xdiez/random
 email: random@xdiez.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog of a full-time SaaS/AI entrepreneur & part-time aspiring nerd.
+  Blog of a part-time aspiring nerd.
 domain: random.xdiez.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://random.xdiez.com # the base hostname & protocol for your site, e.g. http://example.com
