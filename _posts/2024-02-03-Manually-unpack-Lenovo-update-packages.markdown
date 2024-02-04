@@ -97,3 +97,5 @@ Now, in order to extract the update file, follow the steps:
 3. The utility will extract the contents of the update package to a subdirectory in the current directory. In my case, the directory was called `code$GetExtractPath$`.
 
 If you intend to update or downgrade your Lenovo machine's BIOS under Linux, please read the [follow-up blogpost](/it/2024/02/03/Lenovo-BIOS-update-downgrade-under-Linux.html).
+
+_If this post was valuable for you, consider [donating](https://www.paypal.com/donate/?hosted_button_id=FW2YGYBRUPYBS)._
