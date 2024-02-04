@@ -25,3 +25,5 @@ Unfortunately, in the update package, Lenovo is only providing a batch file to c
 ```# ./mkusbkey.sh <mountpoint_of_thumbdrive>```
 5. Once the process is completed, restart your computer. Make sure that booting from external media is enabled by repeatedly pressing the ```Enter``` key during the boot process and press the ```F1``` key to enter the BIOS setup. Once in there, go to ```Boot```, ```Startup``` or similar and make sure the respective settings are in place.
 6. Boot from the USB thumbdrive and follow the steps to update or downgrade your BIOS.
+
+_If this post was valuable for you, consider [donating](https://www.paypal.com/donate/?hosted_button_id=FW2YGYBRUPYBS)._
