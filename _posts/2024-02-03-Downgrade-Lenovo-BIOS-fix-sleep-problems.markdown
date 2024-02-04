@@ -32,7 +32,7 @@ The support pages on the Lenovo website routinely only link to the most recent B
 ![image](https://github.com/mdiez/mdiez.github.io/assets/7477044/5abe7ac0-a8dc-4fc1-9b9b-0cbeafcec04f)
 7. Now, in order to download a previous release, paste the link you saved under step 4.2 and replace the filename before the extension with the respective `Package` identifier. For example, if I want to download UEFI version 1.30, the associated `Package ID` would be `R22UJ60W` and thus, the download link is:
 `https://download.lenovo.com/pccbbs/mobiles/R22UJ60W.exe`.
-8. At this point, *I suggest you download all past BIOSes* while you're at it and just save them to your hard drive. This way you still have them even if Lenovo should remove them from their servers in the future. Also, if you have the former BIOSes readily available, you can downgrade in a few minutes and thus accelerate your troublshooting efforts.
+8. At this point, **I suggest you download all past BIOSes** while you're at it and just save them to your hard drive. This way you still have them even if Lenovo should remove them from their servers in the future. Also, if you have the former BIOSes readily available, you can downgrade in a few minutes and thus accelerate your troublshooting efforts.
 9. If you are running Windows, you can now double click on the downloaded exe file and follow the instructions to downgrade your BIOS. If you are running Linux, you'll need to manually unpack the downloaded exe files and create a boot medium. Find out how you can do this in the [follow up blog post about manually extracting Lenovo update packages](/it/2024/02/03/Manually-unpack-Lenovo-update-packages.html).
 
-_If this post was valuable for you, consider [donating](https://www.paypal.com/donate/?hosted_button_id=FW2YGYBRUPYBS)._
+<span style="color: red;">**If this post was valuable for you, consider [donating](https://www.paypal.com/donate/?hosted_button_id=FW2YGYBRUPYBS).**</span>
