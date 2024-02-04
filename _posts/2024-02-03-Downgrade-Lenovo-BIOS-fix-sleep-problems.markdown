@@ -34,3 +34,5 @@ The support pages on the Lenovo website routinely only link to the most recent B
 `https://download.lenovo.com/pccbbs/mobiles/R22UJ60W.exe`.
 8. At this point, *I suggest you download all past BIOSes* while you're at it and just save them to your hard drive. This way you still have them even if Lenovo should remove them from their servers in the future. Also, if you have the former BIOSes readily available, you can downgrade in a few minutes and thus accelerate your troublshooting efforts.
 9. If you are running Windows, you can now double click on the downloaded exe file and follow the instructions to downgrade your BIOS. If you are running Linux, you'll need to manually unpack the downloaded exe files and create a boot medium. Find out how you can do this in the [follow up blog post about manually extracting Lenovo update packages](/it/2024/02/03/Manually-unpack-Lenovo-update-packages.html).
+
+_If this post was valuable for you, consider [donating](https://www.paypal.com/donate/?hosted_button_id=FW2YGYBRUPYBS)._
