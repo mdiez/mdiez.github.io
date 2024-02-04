@@ -1,16 +1,19 @@
 ---
 layout: post
-title:  "How to downgrade the BIOS on Lenovo laptops and fix sleep problems"
+title:  "How to fix sleep problems on Lenovo laptops by downgrading the BIOS"
 date:   2024-02-03 19:28:21 +0200
 categories: it
 ---
 
+# Disclaimer
+I assume no guarantee or warranty, no responsibility or liability for whatever you might be doing based on the information in this post. Changing your computer's BIOS is inherently risky and, in very rare cases, you might brick your device entirely.
+
 # Lenovo BIOSes are going downhill
 While I love some Lenovo hardware (especially the T4**s/T14s series), the quality of the BIOSes that Lenovo is putting out these days is getting worse and worse. Currently, my daily driver is a Lenovo T14s Gen 3, and I found that the recent BIOS versions (e.g., 1.35, 1.31) caused serious problems because my the machine would no longer wake up from sleep mode. While with previous BIOS versions this only occurred occassionally, with 1.35/1.31 it became a routine symptom and made life very difficult.
 
-If you google around, you will find that many users suffer from these symptoms, complaining, for example, in the [Lenovo support forums](https://forums.lenovo.com/t5/ThinkPad-T400-T500-and-newer-T-series-Laptops/T14-won-t-wake-up-out-sleep/m-p/5155189?page=1) and on [Reddit](https://www.reddit.com/r/thinkpad/comments/w35d1w/new_t14s_gen_3_amd_sleep_issues_already/) (this are just the first search results; there are many more threads). I've tried many different things, such as installing Ubuntu instead of Windows, and changing various power settings under both operating systems -- to no avail.
+If you google around, you will find that many users suffer from these symptoms, complaining, for example, in the [Lenovo support forums](https://forums.lenovo.com/t5/ThinkPad-T400-T500-and-newer-T-series-Laptops/T14-won-t-wake-up-out-sleep/m-p/5155189?page=1) and on [Reddit](https://www.reddit.com/r/thinkpad/comments/w35d1w/new_t14s_gen_3_amd_sleep_issues_already/) (these are just the top search results; there are many more threads). I've tried many different things, such as installing Ubuntu instead of Windows, and changing various power settings under both operating systems -- to no avail.
 
-Thus I decided to take a more systematic approach. I remembered that initially, when I got the machine, I didn't have these problems. Since then, various BIOS updates were applied via Lenovo's System Updater tool. I figured there might be a connection here, so I decided to systematically downgrade my machine's BIOS to previous versions and, after each downgrade, test if the problem was resolved by using the computer normally, which includes putting it to sleep at various times during the day and for the night.
+Thus I decided to take a more systematic approach. I remembered that initially, when I got the machine, I didn't have these problems. Since then, various BIOS updates were applied via Lenovo's System Updater tool. I figured there might be a connection here, so I decided that, each time the problem would occur, I would downgrade my machine's BIOS to the preceding version (so I went from 1.35 to 1.31 to 1.30). Then, after each downgrade, I would test if the problem was resolved by using the computer normally, which includes putting it to sleep at various times during the day and for the night.
 
 I found out, that for my configuration, BIOS version 1.30 (from Lenovo software package R22UR60W) was stable and I haven't had a single occurrence of the computer not waking up from sleep anymore in almost three weeks. Since it is not straightforward to find the necessary files on Lenovo's servers, here is a full tutorial on how to do this.
 
