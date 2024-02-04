@@ -98,4 +98,4 @@ Now, in order to extract the update file, follow the steps:
 
 If you intend to update or downgrade your Lenovo machine's BIOS under Linux, please read the [follow-up blogpost](/it/2024/02/03/Lenovo-BIOS-update-downgrade-under-Linux.html).
 
-_If this post was valuable for you, consider [donating](https://www.paypal.com/donate/?hosted_button_id=FW2YGYBRUPYBS)._
+<span style="color: red;">**If this post was valuable for you, consider [donating](https://www.paypal.com/donate/?hosted_button_id=FW2YGYBRUPYBS).**</span>
