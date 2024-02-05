@@ -6,7 +6,7 @@ categories: it
 ---
 
 # Disclaimer
-I assume no guarantee or warranty, no responsibility or liability for whatever you might be doing based on the information in this post. Changing your computer's BIOS is inherently risky and, in very rare cases, you might brick your device entirely.
+**I assume no guarantee or warranty, no responsibility or liability for whatever you might be doing based on the information in this post. Changing your computer's BIOS is inherently risky and, in very rare cases, you might brick your device entirely. Also, there are apparently cases where the operating system (Windows 11) didn't boot anymore after a BIOS downgrade, and users had to reinstall it. Thus, make a backup of all your data first, before proceeding! (Thanks to [crispy42 in the Lenovo Support Forums](https://forums.lenovo.com/t5/ThinkPad-T400-T500-and-newer-T-series-Laptops/Please-bring-back-S3-sleep/m-p/5285890?page=1#6247782) for this hint!)**
 
 # Lenovo BIOSes are going downhill
 While I love some Lenovo hardware (especially the T4**s/T14s series), the quality of the BIOSes that Lenovo is putting out these days is getting worse and worse. Currently, my daily driver is a Lenovo T14s Gen 3, and I found that the recent BIOS versions (e.g., 1.35, 1.31) caused serious problems because my the machine would no longer wake up from sleep mode. While with previous BIOS versions this only occurred occassionally, with 1.35/1.31 it became a routine symptom and made life very difficult.
